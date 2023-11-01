@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/lesson).iml" filepath="$PROJECT_DIR$/.idea/lesson).iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson-code-java-spring-boot-microservices-iteration-2-master/grade-data-service/ratings-data-service.iml" filepath="$PROJECT_DIR$/lesson-code-java-spring-boot-microservices-iteration-2-master/grade-data-service/ratings-data-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson-code-java-spring-boot-microservices-iteration-2-master/movie-catalog-service/student-catalog-service.iml" filepath="$PROJECT_DIR$/lesson-code-java-spring-boot-microservices-iteration-2-master/movie-catalog-service/student-catalog-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson-code-java-spring-boot-microservices-iteration-2-master/student-info-service/student-info-service.iml" filepath="$PROJECT_DIR$/lesson-code-java-spring-boot-microservices-iteration-2-master/student-info-service/student-info-service.iml" />
     </modules>
   </component>
 </project>

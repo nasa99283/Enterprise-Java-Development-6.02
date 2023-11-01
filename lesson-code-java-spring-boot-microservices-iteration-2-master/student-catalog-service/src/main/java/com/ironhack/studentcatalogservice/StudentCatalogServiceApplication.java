@@ -9,6 +9,7 @@ import org.springframework.web.client.RestTemplate;
 
 @SpringBootApplication
 @EnableEurekaClient
+@EnableFeignClients
 public class StudentCatalogServiceApplication {
 
 	@Bean

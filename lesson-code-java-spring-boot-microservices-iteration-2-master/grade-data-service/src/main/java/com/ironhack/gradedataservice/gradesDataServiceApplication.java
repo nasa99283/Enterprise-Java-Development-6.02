@@ -19,6 +19,7 @@ import java.util.List;
 
 @SpringBootApplication
 @EnableEurekaClient
+
 public class gradesDataServiceApplication {
 
 	public static void main(String[] args) {

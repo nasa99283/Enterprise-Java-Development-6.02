@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/lesson-code-java-spring-boot-microservices-iteration-2-master/movie-catalog-service/pom.xml" />
         <option value="$PROJECT_DIR$/lesson-code-java-spring-boot-microservices-iteration-2-master/student-info-service/pom.xml" />
         <option value="$PROJECT_DIR$/lesson-code-java-spring-boot-microservices-iteration-2-master/grade-data-service/pom.xml" />
+        <option value="$PROJECT_DIR$/lesson-code-java-spring-boot-microservices-iteration-2-master/api-gateway/pom.xml" />
       </list>
     </option>
   </component>

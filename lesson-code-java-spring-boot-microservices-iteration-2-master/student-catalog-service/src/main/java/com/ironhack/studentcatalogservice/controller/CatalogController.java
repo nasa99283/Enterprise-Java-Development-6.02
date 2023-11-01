@@ -16,12 +16,12 @@ public class CatalogController {
     @Autowired
     private RestTemplate restTemplate;
 
-    @GetMapping("/catalogs/user/{userId}")
+    @GetMapping("/catalogs/Course/{courseCode}")
     @ResponseStatus(HttpStatus.OK)
-    public Catalog getCatalog(@PathVariable String userId) {
+    public Catalog getCatalog(@PathVariable String courseCode) {
 
-        // Assuming that "userId" is the correct path variable name
-        CourseGrade courseGrade = restTemplate.getForObject("http://localhost:8083/api/courses/" + userId + "/ratings", CourseGrade.class);
+
+        CourseGrade courseGrade = restTemplate.getForObject("http://localhost:8083/api/courses/" + courseCode + "/rgrades", CourseGrade.class);
 
         Catalog catalog = new Catalog();
         catalog.setCourseName(courseGrade.getCourseCode());

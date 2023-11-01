@@ -12,7 +12,7 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
-@RequestMapping("/api")
+@RequestMapping("/api/grade")
 public class GradeController {
 
     @Autowired
@@ -20,7 +20,7 @@ public class GradeController {
 
     @GetMapping("/grades")
     @ResponseStatus(HttpStatus.OK)
-    public List<Grade> getRatings(@RequestParam Optional<String> gradeId) {
+    public List<Grade> getgrade(@RequestParam Optional<String> gradeId) {
         if (gradeId.isPresent()) {
             return gradeRepository.findByGradeId(gradeId.orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "Wrong grade  id")));
         }

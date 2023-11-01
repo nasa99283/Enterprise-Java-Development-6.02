@@ -6,18 +6,30 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="ratings-data-service" />
-        <module name="student-info-service" />
-        <module name="student-catalog-service" />
+        <module name="api-gateway" />
         <module name="discovery-service" />
+        <module name="student-catalog-service (2)" />
+        <module name="student-catalog-service (1)" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="movie-info-service (1)" target="17" />
+      <module name="movie-info-service (2)" target="17" />
+      <module name="ratings-data-service" target="17" />
+      <module name="student-catalog-service" target="17" />
+      <module name="student-info-service" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="api-gateway" options="-parameters" />
       <module name="discovery-service" options="-parameters" />
+      <module name="movie-info-service (1)" options="-parameters" />
+      <module name="movie-info-service (2)" options="-parameters" />
       <module name="ratings-data-service" options="-parameters" />
       <module name="student-catalog-service" options="-parameters" />
+      <module name="student-catalog-service (1)" options="-parameters" />
+      <module name="student-catalog-service (2)" options="-parameters" />
       <module name="student-info-service" options="-parameters" />
     </option>
   </component>
